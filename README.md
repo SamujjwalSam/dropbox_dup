@@ -16,3 +16,8 @@ __date__        : "25-Jun-14"
 __copyright__   : "Copyright (c) 2014 Samujjwal_Ghosh"
 
 __license__     : "Python"
+
+todo:
+1. Integrate with MongoDB,
+2. Create a php page for accessing OAuth2,
+3. Deploy on cloud.
