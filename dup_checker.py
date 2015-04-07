@@ -6,7 +6,7 @@ __synopsis__    : DropBox Files duplicate detector
 __description__ :Checks if the there are duplicate files in the dropbox
                  account and report them
 __project__     : dropbox_dup
-__author__      : Subhadeep Maji, Samujjwal Ghosh
+__author__      : Samujjwal Ghosh, Subhadeep Maji
 __version__     : " 0.1.1 "
 __date__        : "25-Jun-14"
 __copyright__   : "Copyright (c) 2014 Samujjwal_Ghosh"
