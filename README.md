@@ -22,23 +22,17 @@ __To run it__   :
 
 `$ cd  dropbox_dup`
 
-`$ ./dropbox_dup.py < hello.c > index.js`
-
-put `index.js` to the python tutor `js/` directory, so that the front end could render it.
+`$ ./dropbox_dup.py
 
 During `dropbox_dup.py` running, all the temporary files will be stored in `/tmp/` directory. 
 And in the local dir, there will be a log file named `dropbox_dup.log` generated to give 
 log information during `dropbox_dup.py` running.
 
-__Prerequest__ : Python 2.7.
+__Prerequesit__ : Python 2.7
 
 __Files__ :
-- `dropbox_dup.py` : The main entry to run the CTutor.
-- `Trace.py`: The class used to call lldb to generate the trace, and put it in a js file.
-- `Trace_test.py`: Unit test for trace generator, currently still under development.
-- `Makefile_buildlib`: Makefile used to generate the library used for heap memory management. We need to get information about the `malloc`, `alloca` and `free` function call. It is used to generate libsample.so by running `$make -f Makefile_buildlib`
-- `sample.c`: The source code for a self-defined `malloc/alloc/free` function.
-- `hello.c`: An example code used to generate js.
+- `dropbox_dup.py` : The main file which contains all the logic.
+- 
   
 __TODO__ :
 - Integrate with MongoDB,
